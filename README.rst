@@ -13,7 +13,7 @@ Usage Example:
 .. code-block:: python
 
     from bottle import Bottle ,redirect
-    from bottle_es import ElasticPlugin
+    from bottle_elastic import ElasticPlugin
     from datetime import datetime
 
     app = Bottle()
