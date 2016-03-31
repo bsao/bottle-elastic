@@ -5,7 +5,8 @@ import unittest
 
 import bottle
 import elasticsearch
-from plugin.bottle_elastic import ElasticPlugin
+
+from bottle_elastic import ElasticPlugin
 
 py = sys.version_info
 py3k = py >= (3, 0, 0)

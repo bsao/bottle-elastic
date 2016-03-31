@@ -16,9 +16,8 @@ __all__ = ['ElasticPlugin', ]
 
 import collections
 import inspect
-from json import dumps
 
-from bottle import PluginError, response
+from bottle import PluginError
 
 
 class ElasticPlugin(object):
