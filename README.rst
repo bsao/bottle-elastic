@@ -1,6 +1,9 @@
 Bottle Elasticsearch
 ==============
 
+.. image:: https://travis-ci.org/bsao/bottle-elastic.svg?branch=master
+    :target: https://travis-ci.org/bsao/bottle-elastic
+
 This bottle-elastic plugin integrates Elasticsearch with your Bottle
 application. It injects a Elastic connection in your route and handle the
 session cycle.
