@@ -1,0 +1,100 @@
+*.pid
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+coverage/
+npm-debug.log
+scss-lint-report.xml
+urls.csv
+*.sqlite3
+.idea
+*.pyc
+*.pyo
+celery*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.min.js
+*.min.css
+.DS_Store
+static/css/*
+static/js/*
+cover/
+deploy/fixes/*.jpg
+deploy/fixes/*.jpge
+deploy/fixes/*.tif
+deploy/fixes/*.png
+tmp/
+deploy/vivadecora_dump.sql
+# C extensions
+*.so
+*.rdb
+logs/*
+media/*
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+js/annotated/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+report.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+
+#virtualenv
+vd33/
+static/vivadecora_templates.js
+
+# Arquivos da fonte
+static/fonts/vivaicons/viva-icons.*
+sass/helpers/_viva-icons.scss
+
+# Arquivos do styleguide
+styleguide/css/index.html
+/static/css/styleguide*
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
