@@ -5,7 +5,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 setup(
     name='bottle-elastic',
-    version='0.2.0',
+    version='0.2.1',
     url='https://github.com/bsao/bottle-elastic',
     description='Elasticsearch integration for Bottle',
     author='Robson Junior',

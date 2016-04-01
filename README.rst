@@ -15,7 +15,7 @@ Usage Example:
 
 .. code-block:: python
 
-    from bottle import Bottle ,redirect
+    from bottle import Bottle
     from bottle_elastic import ElasticPlugin
     from datetime import datetime
 
